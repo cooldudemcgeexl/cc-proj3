@@ -19,11 +19,11 @@ docker build -t proj3 .
 ## Running
 1. Run:
 ```bash
-docker run proj3
+docker run -v <your/data/dir>:/home/data proj3 
 ```
 Or, for detatched mode:
 ```bash
-docker run -d proj3
+docker run -d -v <your/data/dir>:/home/data proj3
 ```
 
 ## Stats:
